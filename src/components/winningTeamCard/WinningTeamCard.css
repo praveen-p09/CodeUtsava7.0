@@ -56,6 +56,11 @@
   cursor: pointer;
 }
 
+.codeutsava__section11-card-name:hover{
+  background-color: var(--secondary-c);
+  color: white;
+}
+
 .codeutsava__section11-card-name {
   transition: all 0.2s ease-in-out;
   width: 100%;
@@ -63,9 +68,10 @@
   object-fit: cover;
   background-color: white;
   color: black;
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   border-radius: 16px;
   font-weight: 600;
@@ -113,10 +119,17 @@
   padding: 50px;
   overflow: hidden;
   position: fixed;
+<<<<<<< HEAD
   width: 60%;
   height: 85%;
   top: 12%;
   left: 20%;
+=======
+  width: 80%;
+  height: 80%;
+  top: 15%;
+  left: 10%;
+>>>>>>> 18c430455f323107ebbb8b9f94460c705a6d50df
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -217,6 +230,7 @@
 }
 
 @media screen and (max-width: 900px) {
+<<<<<<< HEAD
   .codeutsava__section11-problemModal-body table {
     width: 100%;
     height: 100%;
@@ -227,3 +241,25 @@
     height: 40vh; 
   }
 }
+=======
+  .codeutsava__section11-problemModal-body td,
+  .codeutsava__section11-problemModal-body th {
+    font-size: 16px !important;
+  }
+  .codeutsava__section11-problemModal-body{
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .codeutsava__section11-problemModal-body td,
+  .codeutsava__section11-problemModal-body th, .codeutsava__section11-problemModal-body h1, .codeutsava__section11-problemModal-body h5 {
+    font-size: 12px !important;
+  }
+  .codeutsava__section11-problemModal-body td, .codeutsava__section11-problemModal-body th{
+    padding: 10px !important;
+  }
+  .codeutsava__section11-problemModal-body{
+    padding: 1rem;
+  }
+}
+>>>>>>> 18c430455f323107ebbb8b9f94460c705a6d50df
