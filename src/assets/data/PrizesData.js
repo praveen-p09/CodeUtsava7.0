@@ -2,71 +2,67 @@ const Prizes = [
   {
     title: "🥇 Winner's 🥇",
     cashPrize: [
-      "The winning team will be awarded Rs. 2.7 Lakhs, with Rs. 35,000 in cash.",
+      "A monetary prize of Rs. 35,000 and Rs. 2 lakhs worth of prizes will be presented to the winning team.",
     ],
     prizeInfo: [
-      "Digital Ocean Credits: Rs. 50,000",
-      "JetBrains Free Educational License",
-      "Taskade Unlimited Workspace Upgrade: Rs. 1,00,000",
-      "1-month FREE Echo-3D Premium Plan: Rs. 50,000",
-      "UNO interview plan by Interview Buddy: Rs. 7,000",
-      "Discount on PrepBytes Placement Courses: Rs. 30,000",
-      "T-Shirt Swag for all team members",
+      "A Wolfram | Alpha PRO subscription for one year absolutely FREE.",
+      "An O’Reilly Ebook for FREE.",
+      "One month FREE Echo-3D Premium.",
     ],
   },
   {
     title: "🥈 Runner - Up's 🥈",
     cashPrize: [
-      "The runner-up team will be awarded Rs. 2.5 Lakhs, with Rs. 25,000 in cash.",
+      "A monetary prize of Rs. 25,000 and Rs. 1.9 lakhs worth of prizes will be presented to the runner ups.",
     ],
     prizeInfo: [
-      "Digital Ocean Credits: Rs. 40,000",
-      "JetBrains Free Educational License",
-      "Taskade Unlimited Workspace Upgrade: Rs. 1,00,000",
-      "1-month FREE Echo-3D Premium Plan: Rs. 50,000",
-      "UNO interview plan by Interview Buddy: Rs. 7,000",
-      "Discount on PrepBytes Placement Courses: Rs. 30,000",
-      "T-Shirt Swag for all team members",
+      "A Wolfram | Alpha PRO subscription for one year absolutely FREE.",
+      "An O’Reilly Ebook for FREE.",
+      "One month FREE Echo-3D Premium.",
     ],
   },
   {
-    title: "🥉 Second Runner - Up's 🥉",
+    title: "🥉 2ⁿᵈ Runner - Up's 🥉",
     cashPrize: [
       "The second runner-up team will be awarded Rs. 2.3 Lakhs, with Rs. 15,000 in cash.",
     ],
     prizeInfo: [
-      "Digital Ocean Credits: Rs. 33,000",
-      "JetBrains Free Educational License",
-      "Taskade Unlimited Workspace Upgrade: Rs. 1,00,000",
-      "1-month FREE Echo-3D Premium Plan: Rs. 50,000",
-      "UNO interview plan by Interview Buddy: Rs. 7,000",
-      "Discount on PrepBytes Placement Courses: Rs. 30,000",
-      "T-Shirt Swag for all team members",
+      "A Wolfram | Alpha PRO subscription for one year absolutely FREE.",
+      "An O’Reilly Ebook for FREE.",
+      "One month FREE Echo-3D Premium.",
     ],
   },
-  // {
-  //     title : "Winning Team of each category (Five Categories)",
-  //     cashPrize : [
-  //         'Team will be awarded prizes worth Rs. 2 Lakh.',
-  //         'Cash Prize of Rs. 10,000.',
-  //     ],
-  //     prizeInfo : [
-  //         'Digital Ocean credits worth Rs. 8,000.',
-  //         'JetBrains Free Educational License for all.',
-  //         'Taskade Unlimited Workspace Upgrade worth Rs. 1,00,000. (Lifetime Access)',
-  //         '1-month FREE access to Premium Plan features of the Echo-3D platform worth Rs. 50,000.',
-  //         'UNO interview plan with unlimited practice from Interview Buddy worth Rs. 7000.',
-  //         'Discount on PrepBytes Placement Courses worth Rs. 30,000.',
-  //     ]
-  // },
-  // {
-  //     title : "Extras",
-  //     cashPrize : [
-  //     ],
-  //     prizeInfo : [
-  //         'T-Shirts, Stickers and other goodies for all participants.',
-  //     ],
-  // },
+  {
+    title: "🥇 Problem Domain Winner's 🥇",
+    cashPrize: [
+      "The category wise winning teams will be awarded Rs. 1.5 lakhs in total, with Rs. 10,000 in cash to each team.",
+    ],
+    prizeInfo: [
+      "A Wolfram | Alpha PRO subscription for one year absolutely FREE.",
+      "One month FREE Echo-3D Premium.",
+    ],
+  },
+  {
+    title: "🥇 Best Hack built on Ethereum + Polygon 🥇",
+    cashPrize: ["The winning team will be awarded Rs. 16,000 in cash."],
+    prizeInfo: [],
+  },
+  {
+    title: "🥇 Best Hack built on Ethereum 🥇",
+    cashPrize: ["The winning team will be awarded Rs. 12,000 in cash."],
+    prizeInfo: [],
+  },
+  {
+    title: "👻 For All Participants! 👻",
+    cashPrize: [],
+    prizeInfo: [
+      "30 days FREE trial of O' Reilly learning platform.",
+      "30 days FREE access to Wolfram | One.",
+      "One month FREE Echo3D Pro.",
+      "Tshirts, stickers and other goodies for the team.",
+      "System Driven mocks by InterviewBuddy.",
+    ],
+  },
 ];
 
 export default Prizes;

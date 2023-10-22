@@ -33,13 +33,16 @@
 
 .codeutsava__section3-events-container {
   gap: 4rem;
+  min-height: 500px;
   /* overflow-x: scroll;
   min-width: 70vw; */
   display: flex;
   /* justify-content: flex-start; */
   justify-content: center;
+  flex-wrap: wrap;
   margin: 4rem auto;
   flex-direction: row;
+  /* background-color: red; */
 }
 
 /* .codeutsava__section3-events-container::-webkit-scrollbar{
@@ -51,22 +54,6 @@
   box-sizing: initial;
   padding: 80px 0px;
   overflow-y: visible;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  display: none;
-}
-
-.slick-list {
-  overflow-y: hidden !important;
-}
-
-.codeutsava__section3-events-container .slider .slick-arrow .slick-prev button {
-  display: none;
-}
-.codeutsava__section3-events-container .slider .slick-list .slick-slide > div {
-  padding: 0 35px;
 }
 
 @media (min-width: 1024px) {

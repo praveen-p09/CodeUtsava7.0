@@ -1,6 +1,7 @@
 .codeutsava__section8 {
   padding-top: 4rem;
   padding-bottom: 2rem;
+  margin-bottom: 6rem;
   color: white;
   font-family: "Poppins";
 }
@@ -19,8 +20,18 @@
   line-height: 82px;
   text-align: center;
   letter-spacing: 1px;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.codeutsava__section8-title img {
+  width: auto;
+  position: relative;
+  height: 110px;
+}
+
 
 .codeutsava__section8-problems {
   display: flex;

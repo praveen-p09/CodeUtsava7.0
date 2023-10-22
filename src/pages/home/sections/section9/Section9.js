@@ -1,19 +1,19 @@
 import React from "react";
 import Prizes from "../../../../assets/data/PrizesData";
 import PrizeBox from "../../../../components/prizeBox/PrizeBox.js";
-import pumpkin from '../../../../assets/images/pumpkin.png';
+import ghost from '../../../../assets/images/ghost.png';
 import "./Section9.css";
 
 const Section9 = () => {
   return (
     <div
-      className="codeutsava__section9"
+      className="codeutsava__section9" id="prizes"
     >
       <div className="codeutsava__section9-title">
         <div className="codeutsava__section9-title1">
-          <img src={pumpkin} />Prizes</div>
+          <img src={ghost} />Prizes</div>
         <div className="codeutsava__section9-title2">
-          Win exciting prizes worth upto 15 lakhs
+          Win exciting prizes worth upto <b> &nbsp; 33 lakhs!</b>🏆
         </div>
       </div>
       <div className="codeutsava__section9-body">
