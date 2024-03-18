@@ -10,11 +10,14 @@ const TeamCard = ({
   linkedin,
   domain,
 }) => {
+  const imgIdRegex = /\/uc\?id=([\w-]+)&?/;
+  const match = img.match(imgIdRegex);
+  const extractedId = match ? match[1] : null;
   return (
     <div className="codeutsava__team-card">
       <div id="dfg"></div>
       <div className="codeutsava__team-card-img">
-        <img src={img} />
+        <img src={`https://drive.google.com/thumbnail?id=${extractedId}`} />
       </div>
       <div className="codeutsava__team-card-content">
         <h3 className="name">{name}</h3>

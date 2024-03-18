@@ -5,6 +5,9 @@ import spider from "../../assets/images/spider.svg";
 import pumpkin from "../../assets/images/pumpkin.svg";
 
 const TeamCard3 = ({ img, name, position, linkedin, email, domain }) => {
+  const imgIdRegex = /\/uc\?id=([\w-]+)&?/;
+  const match = img.match(imgIdRegex);
+  const extractedId = match ? match[1] : null;
   return (
     <div className="codeutsava__team-card3">
       <div className="codeutsava__team-card3-ds-top"></div>
@@ -12,7 +15,7 @@ const TeamCard3 = ({ img, name, position, linkedin, email, domain }) => {
         <img src={spider} className="codeutsava__team-card3-spider-img" />
       </div>
       <div className="codeutsava__team-card3-avatar-holder">
-        <img src={img} className="codeutsava__team-card3-avatar-holder-img" />
+        <img src={`https://drive.google.com/thumbnail?id=${extractedId}`} className="codeutsava__team-card3-avatar-holder-img" />
       </div>
       <div className="codeutsava__team-card3-content">
         <h2>{name}</h2>
