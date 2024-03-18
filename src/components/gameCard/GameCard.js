@@ -25,10 +25,10 @@ const GameCard = () => {
         </div>
         <div className="codeutsava__game-right-content">
           <div className="codeutsava__game-right-special-prices">
-            <h3>
+            <p>
               Our self designed <b>virtual escape room,</b> where participants
               must solve different puzzles in each level to escape and win.
-            </h3>
+            </p>
           </div>
           <p>
             <b>Disclaimer:</b> Not for the <b>Weak.</b>
@@ -36,7 +36,7 @@ const GameCard = () => {
         </div>
         <a
           className="codeutsava__game-link"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdnFe_Zm97Of15Hs2UH9V-mIoiQz8rSggj48y41ekjKkcSj7g/viewform"
+          href="https://virtual-escape-room-tcp.vercel.app/"
           target="__blank"
         >
           Click at your own Risk!
