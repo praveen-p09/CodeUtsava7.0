@@ -2,7 +2,9 @@ import event1 from "../images/event1.webp";
 import event2 from "../images/event2.webp";
 import event3 from "../images/event3.webp";
 import event4 from "../images/event4.webp";
-import dummye from '../images/dummye.png';
+import event5 from "../images/event5.webp";
+import event6 from "../images/event6.webp";
+import event7 from "../images/event7.webp";
 
 const events = [
   {
@@ -31,7 +33,7 @@ const events = [
     time: "6:00 PM",
     venue: "Online",
     img: event4,
-    guidelines: 'The contest will be organized in three phases:\nPhase 1: DSA Challenge\nPhase 2: CS Fundamentals Challenge\nPhase 3: Aptitude Challenge\nRemember, participation in all three rounds is mandatory, as a leaderboard will determine the top 10 participants based on their cumulative scores. The top 5 participants will be rewarded with cash prizes worth Rs. 5k.📊🏆',
+    guidelines: (<p style={{fontWeight:'normal'}}> The contest will be organized in three phases:<br/><b>Phase 1:</b> DSA Challenge<br/><b>Phase 2:</b> CS Fundamentals Challenge<br/><b>Phase 3:</b> Aptitude Challenge<br/>Remember, <b>participation in all three rounds is mandatory</b>, as a leaderboard will determine the top 10 participants based on their cumulative scores. The top 5 participants will be rewarded with <b>cash prizes worth Rs. 5k</b>.📊🏆</p>),
     desc: "A range of diverse types of coding contests will be organized for the students over the course of 3 days, where the participants will face a variety of challenges, ranging from writing code to debugging a webpage and more.",
     link: "",
   },
@@ -40,7 +42,7 @@ const events = [
     date: "28ᵗʰ Oct",
     time: "10:00 PM",
     venue: "Online",
-    img: dummye,
+    img: event5,
     guidelines:"",
     desc: "To provide a platform for the students to demonstrate their additional talents, apart from programming, tournaments of multiple popular online games will be hosted where the students and compete and showcase their gaming skills.",
     link: "",
@@ -50,7 +52,7 @@ const events = [
     date: "29ᵗʰ Oct",
     time: "10:00 PM",
     venue: "Online",
-    img: dummye,
+    img: event7,
     guidelines:"",
     desc: "To provide a platform for the students to demonstrate their additional talents, apart from programming, tournaments of multiple popular online games will be hosted where the students and compete and showcase their gaming skills.",
     link: "",
@@ -68,9 +70,9 @@ const events = [
   {
     title: "Virtual Escape Room",
     date: "31ˢᵗ Oct",
-    time: "6:00 PM",
+    time: "2:00 PM",
     venue: "CCC, NIT Raipur",
-    img: dummye,
+    img: event6,
     guidelines:"",
     desc: "Our self designed virtual escape room, where participants must solve different puzzles in each level to escape and win.",
     link: "",
